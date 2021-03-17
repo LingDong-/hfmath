@@ -2,7 +2,7 @@
 
 *Render LaTeX math with Hershey Fonts.*
 
-[Download](./dist) | [Try Online]() | [API](#usage)
+[Download](./dist) | [Try Online](https://hfmath.netlify.app) | [API](#usage)
 
 hfmath is a tiny JS tool for rendering mathematics using single-line [Hershey Fonts](https://en.wikipedia.org/wiki/Hershey_fonts). ~140 KB script with no dependencies: LaTeX goes in, SVG paths comes out. No CSS. No font loading. Lightning fast. Works for browsers and servers. Customizable export for polyline data, SVG or PDF. Display math in your blog. Draw your homework with a plotter. Engrave your favorite equation on a plate. Animate.
 
