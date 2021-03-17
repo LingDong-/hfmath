@@ -1,0 +1,17 @@
+{
+  "name": "hfmath",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/hfmath.js",
+  "scripts": {
+    "build": "tsup src/hfmath.ts",
+    "test": "tsup src/hfmath.ts && node tools/run_tests.js",
+    "samples": "node tools/samples.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tsup": "^4.7.1",
+    "typescript": "^4.2.3"
+  }
+}

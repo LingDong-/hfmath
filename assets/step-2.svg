@@ -1,0 +1,135 @@
+<svg 
+    xmlns="http://www.w3.org/2000/svg" 
+    width="422.68125000000003" height="114"
+    viewBox="0 0 422.68125000000003 114"
+  ><rect x="0" y="0" width="422.68125000000003" height="114" fill="white"></rect><g 
+      transform="translate(0,0)"
+    ><rect 
+      x="0" y="0" width="422.68125000000003" height="114"
+      stroke="black" stroke-width="1" fill-opacity="0.1"
+    /><g 
+      transform="translate(0,34.199999999999996)"
+    ><rect 
+      x="0" y="0" width="22.5" height="48"
+      stroke="black" stroke-width="1" fill-opacity="0.1"
+    /><text x="0" y="12">f</text></g><g 
+      transform="translate(22.5,34.199999999999996)"
+    ><rect 
+      x="0" y="0" width="21" height="48"
+      stroke="black" stroke-width="1" fill-opacity="0.1"
+    /><text x="0" y="12">(</text></g><g 
+      transform="translate(43.5,34.199999999999996)"
+    ><rect 
+      x="0" y="0" width="30" height="48"
+      stroke="black" stroke-width="1" fill-opacity="0.1"
+    /><text x="0" y="12">x</text></g><g 
+      transform="translate(73.5,34.199999999999996)"
+    ><rect 
+      x="0" y="0" width="21" height="48"
+      stroke="black" stroke-width="1" fill-opacity="0.1"
+    /><text x="0" y="12">)</text></g><g 
+      transform="translate(94.5,34.199999999999996)"
+    ><rect 
+      x="0" y="0" width="39" height="48"
+      stroke="black" stroke-width="1" fill-opacity="0.1"
+    /><text x="0" y="12">=</text></g><g 
+      transform="translate(133.5,53.39999999999999)"
+    ><rect 
+      x="0" y="0" width="99.44999999999999" height="9.600000000000003"
+      stroke="black" stroke-width="1" fill-opacity="0.1"
+    /><text x="0" y="12">\bar</text></g><g 
+      transform="translate(170.47500000000002,12.599999999999998)"
+    ><rect 
+      x="0" y="0" width="25.5" height="40.8"
+      stroke="black" stroke-width="1" fill-opacity="0.1"
+    /><text x="0" y="12">1</text></g><g 
+      transform="translate(133.5,73.19999999999999)"
+    ><rect 
+      x="0" y="0" width="25.5" height="40.8"
+      stroke="black" stroke-width="1" fill-opacity="0.1"
+    /><text x="0" y="12">2</text></g><g 
+      transform="translate(159,68.1)"
+    ><rect 
+      x="0" y="0" width="20.4" height="45.900000000000006"
+      stroke="black" stroke-width="1" fill-opacity="0.1"
+    /><text x="0" y="12">\sqrt</text></g><g 
+      transform="translate(179.39999999999998,63)"
+    ><rect 
+      x="0" y="0" width="53.55" height="10.2"
+      stroke="black" stroke-width="1" fill-opacity="0.1"
+    /><text x="0" y="12">\bar</text></g><g 
+      transform="translate(179.39999999999998,73.19999999999999)"
+    ><rect 
+      x="0" y="0" width="25.5" height="40.8"
+      stroke="black" stroke-width="1" fill-opacity="0.1"
+    /><text x="0" y="12">2</text></g><g 
+      transform="translate(204.89999999999998,73.19999999999999)"
+    ><rect 
+      x="0" y="0" width="28.049999999999997" height="40.8"
+      stroke="black" stroke-width="1" fill-opacity="0.1"
+    /><text x="0" y="12">\pi</text></g><g 
+      transform="translate(232.95000000000002,34.199999999999996)"
+    ><rect 
+      x="0" y="0" width="27" height="48"
+      stroke="black" stroke-width="1" fill-opacity="0.1"
+    /><text x="0" y="12">e</text></g><g 
+      transform="translate(259.95000000000005,16.2)"
+    ><rect 
+      x="0" y="0" width="29.25" height="36"
+      stroke="black" stroke-width="1" fill-opacity="0.1"
+    /><text x="0" y="12">-</text></g><g 
+      transform="translate(289.20000000000005,30.599999999999998)"
+    ><rect 
+      x="0" y="0" width="19.125" height="7.200000000000006"
+      stroke="black" stroke-width="1" fill-opacity="0.1"
+    /><text x="0" y="12">\bar</text></g><g 
+      transform="translate(289.20000000000005,0)"
+    ><rect 
+      x="0" y="0" width="19.125" height="30.599999999999998"
+      stroke="black" stroke-width="1" fill-opacity="0.1"
+    /><text x="0" y="12">1</text></g><g 
+      transform="translate(289.20000000000005,37.800000000000004)"
+    ><rect 
+      x="0" y="0" width="19.125" height="30.599999999999998"
+      stroke="black" stroke-width="1" fill-opacity="0.1"
+    /><text x="0" y="12">2</text></g><g 
+      transform="translate(308.32500000000005,16.2)"
+    ><rect 
+      x="0" y="0" width="15.75" height="36"
+      stroke="black" stroke-width="1" fill-opacity="0.1"
+    /><text x="0" y="12">(</text></g><g 
+      transform="translate(324.07500000000005,30.599999999999998)"
+    ><rect 
+      x="0" y="0" width="65.98124999999999" height="7.200000000000006"
+      stroke="black" stroke-width="1" fill-opacity="0.1"
+    /><text x="0" y="12">\bar</text></g><g 
+      transform="translate(324.07500000000005,0)"
+    ><rect 
+      x="0" y="0" width="19.125" height="30.599999999999998"
+      stroke="black" stroke-width="1" fill-opacity="0.1"
+    /><text x="0" y="12">x</text></g><g 
+      transform="translate(343.20000000000005,0)"
+    ><rect 
+      x="0" y="0" width="24.862499999999997" height="30.599999999999998"
+      stroke="black" stroke-width="1" fill-opacity="0.1"
+    /><text x="0" y="12">-</text></g><g 
+      transform="translate(368.0625,0)"
+    ><rect 
+      x="0" y="0" width="21.993750000000002" height="30.599999999999998"
+      stroke="black" stroke-width="1" fill-opacity="0.1"
+    /><text x="0" y="12">\mu</text></g><g 
+      transform="translate(347.02500000000003,37.800000000000004)"
+    ><rect 
+      x="0" y="0" width="20.081249999999997" height="30.599999999999998"
+      stroke="black" stroke-width="1" fill-opacity="0.1"
+    /><text x="0" y="12">\sigma</text></g><g 
+      transform="translate(390.05625000000003,16.2)"
+    ><rect 
+      x="0" y="0" width="15.75" height="36"
+      stroke="black" stroke-width="1" fill-opacity="0.1"
+    /><text x="0" y="12">)</text></g><g 
+      transform="translate(405.80625000000003,2.6999999999999984)"
+    ><rect 
+      x="0" y="0" width="16.875" height="27"
+      stroke="black" stroke-width="1" fill-opacity="0.1"
+    /><text x="0" y="12">2</text></g></g></svg>
