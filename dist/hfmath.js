@@ -2774,10 +2774,14 @@ var hfmath = class {
       scly *= s;
     }
     if (opt.MAX_W != void 0) {
+      let s0 = sclx;
       sclx = Math.min(sclx, opt.MAX_W / this._tree.bbox.w);
+      scly *= sclx / s0;
     }
     if (opt.MAX_H != void 0) {
-      scly = Math.min(sclx, opt.MAX_H / this._tree.bbox.h);
+      let s0 = scly;
+      scly = Math.min(scly, opt.MAX_H / this._tree.bbox.h);
+      sclx *= scly / s0;
     }
     let px = (_c = opt.MARGIN_X) != null ? _c : sclx;
     let py = (_d = opt.MARGIN_Y) != null ? _d : scly;

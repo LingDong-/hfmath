@@ -172,4 +172,4 @@ The bounding boxes can be quite cool to look at for more complicated equations:
 
 ![](assets/nest-step-2.svg)
 
-![](assets/nest-frac.svg)
+![](assets/nest-step-3.svg)

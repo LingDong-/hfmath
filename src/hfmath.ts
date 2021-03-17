@@ -957,10 +957,14 @@ export class hfmath{
       scly *= s;
     }
     if (opt.MAX_W != undefined){
+      let s0 = sclx;
       sclx = Math.min(sclx,opt.MAX_W/this._tree.bbox.w);
+      scly *= (sclx/s0);
     }
     if (opt.MAX_H != undefined){
-      scly = Math.min(sclx,opt.MAX_H/this._tree.bbox.h);
+      let s0 = scly;
+      scly = Math.min(scly,opt.MAX_H/this._tree.bbox.h);
+      sclx *= (scly/s0);
     }
     let px : number = opt.MARGIN_X ?? sclx;
     let py : number = opt.MARGIN_Y ?? scly;
