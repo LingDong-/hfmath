@@ -48,6 +48,18 @@ hfmath is written from scratch, and probably does not match LaTeX visuals and be
 
 ## Usage
 
+Install:
+
+```bash
+npm i hfmath
+```
+
+or
+
+```html
+<script src="https://unpkg.com/hfmath@latest"></script>
+```
+
 Basics: render an equation and write SVG:
 
 ```js

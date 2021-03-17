@@ -1,0 +1,6 @@
+*
+!dist/
+!dist/hfmath.d.ts
+!dist/hfmath.global.js
+!dist/hfmath.js
+!dist/hfmath.mjs
