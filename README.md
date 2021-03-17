@@ -42,7 +42,7 @@ As well as integrals, vectors, matrices, and aligned equations, just to name a f
 
 Check out [more samples here](./samples).
 
-For a list of supported LaTeX commands and symbols, check out [./src/symbols.ts](./src/symbols.ts). Note that the orignal Hershey font does not cover all math symbols available in LaTeX. Check out [./tools/sheet.svg](./tools/sheet.svg) for the full Hershey set. If you would like to have a new symbol manually added to hfmath, please feel free to open an Issue/PR!
+For a list of supported LaTeX commands and symbols, check out [./src/symbols.ts](./src/symbols.ts) (There're about 200 of them). Note that the original Hershey font does not cover all math symbols available in LaTeX. Check out [./tools/sheet.svg](./tools/sheet.svg) for the full Hershey set. If you would like to have a new symbol manually added to hfmath, please feel free to open an Issue/PR!
 
 hfmath is written from scratch, and probably does not match LaTeX visuals and behaviors perfectly (nor is it the goal). However, if something looks buggy or ugly, feel free to let me know in an Issue.
 
@@ -83,7 +83,7 @@ console.log(d)
 ```
 
 
-Other possibilites include:
+Other possibilities include:
 
 ```js
 // pdf
@@ -96,7 +96,7 @@ console.log(boxes)
 //[{x,y,w,h},...]
 ```
 
-Note that internally, hfmath uses the unit of `ex`, (approximately the height of a lower case "x"). The export functions have default settings to upscale by 16. You can finetune it by passing optional arguments to any export function, like so:
+Note that internally, hfmath uses the unit of `ex`, (approximately the height of a lower case "x"). The export functions have default settings to upscale by 16. You can fine-tune it by passing optional arguments to any export function, like so:
 
 ```js
 let eq = new hfmath("x^2 + 2x + 1");
