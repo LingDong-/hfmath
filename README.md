@@ -2,7 +2,7 @@
 
 *Render LaTeX math with Hershey Fonts.*
 
-[Download](./dist/hfmath.js) | [Try Online]() | [API](#usage)
+[Download](./dist) | [Try Online]() | [API](#usage)
 
 hfmath is a tiny JS tool for rendering mathematics using single-line [Hershey Fonts](https://en.wikipedia.org/wiki/Hershey_fonts). ~140 KB script with no dependencies: LaTeX goes in, SVG paths comes out. No CSS. No font loading. Lightning fast. Works for browsers and servers. Customizable export for polyline data, SVG or PDF. Display math in your blog. Draw your homework with a plotter. Engrave your favorite equation on a plate. Animate.
 
@@ -60,6 +60,17 @@ let eq = new hfmath("x^2 + 2x + 1");
 //Write SVG
 let svgStr = eq.svg();
 fs.writeFileSync('out.svg',svgStr);
+```
+
+For the browser
+
+```html
+<script src="hfmath.global.js"></script>
+<script>
+let eq = new HFMATH.hfmath("x^2 + 2x + 1");
+let svgStr = eq.svg();
+document.write(svgStr);
+</script>
 ```
 
 You can also obtain the raw polylines data:

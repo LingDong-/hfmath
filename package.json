@@ -4,7 +4,7 @@
   "description": "",
   "main": "dist/hfmath.js",
   "scripts": {
-    "build": "tsup src/hfmath.ts",
+    "build": "tsup src/hfmath.ts --format esm,cjs,iife --dts --global-name HFMATH",
     "test": "tsup src/hfmath.ts && node tools/run_tests.js",
     "samples": "node tools/samples.js"
   },

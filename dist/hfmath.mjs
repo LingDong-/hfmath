@@ -1,4 +1,4 @@
-"use strict";Object.defineProperty(exports, "__esModule", {value: true});// src/hershey.ts
+// src/hershey.ts
 var ordR = "R".charCodeAt(0);
 function HERSHEY(i) {
   if (data[i] == null) {
@@ -2920,8 +2920,8 @@ endobj
   }
 };
 var _impl = {tokenize, parse, environments, plan, flatten, render};
-
-
-
-
-exports.CONFIG = CONFIG; exports._impl = _impl; exports.hfmath = hfmath;
+export {
+  CONFIG,
+  _impl,
+  hfmath
+};

@@ -972,6 +972,7 @@ export class hfmath{
   }
 
   polylines(opt?:ExportOpt) : number[][][] {
+    if (!opt) opt = {};
     let polylines : number[][][] = [];
     let [px,py,sclx,scly] = this.resolveScale(opt);
     for (let i = 0; i < this._polylines.length; i++){
@@ -985,6 +986,7 @@ export class hfmath{
   }
 
   pathd(opt?:ExportOpt) : string{
+    if (!opt) opt = {};
     let d : string = "";
     let [px,py,sclx,scly] = this.resolveScale(opt);
     for (let i = 0; i < this._polylines.length; i++){
@@ -998,9 +1000,10 @@ export class hfmath{
   }
 
   svg(opt:ExportOpt) : string{
+    if (!opt) opt = {};
     let [px,py,sclx,scly] = this.resolveScale(opt);
-    let w = this._tree.bbox.w*sclx+px*2;
-    let h = this._tree.bbox.h*scly+py*2;
+    let w = nf(this._tree.bbox.w*sclx+px*2);
+    let h = nf(this._tree.bbox.h*scly+py*2);
     let o : string = `<svg 
       xmlns="http://www.w3.org/2000/svg" 
       width="${w}" height="${h}"
@@ -1024,10 +1027,11 @@ export class hfmath{
   }
 
   pdf(opt:ExportOpt) : string {
+    if (!opt) opt = {};
     let [px,py,sclx,scly] = this.resolveScale(opt);
 
-    let width = this._tree.bbox.w*sclx+px*2;
-    let height = this._tree.bbox.h*scly+py*2;
+    let width = nf(this._tree.bbox.w*sclx+px*2);
+    let height = nf(this._tree.bbox.h*scly+py*2);
     let head = `%PDF-1.1\n%%¥±ë\n1 0 obj\n<< /Type /Catalog\n/Pages 2 0 R\n>>endobj
     2 0 obj\n<< /Type /Pages\n/Kids [3 0 R]\n/Count 1\n/MediaBox [0 0 ${width} ${height}]\n>>\nendobj
     3 0 obj\n<< /Type /Page\n/Parent 2 0 R\n/Resources\n<< /Font\n<< /F1\n<< /Type /Font
@@ -1050,6 +1054,7 @@ export class hfmath{
   }
 
   boxes(opt:ExportOpt):Bbox[]{
+    if (!opt) opt = {};
     let [px,py,sclx,scly] = this.resolveScale(opt);
     let bs : Bbox[] = [];
     for (let i = 0; i < this._tree.chld.length; i++){
@@ -1060,6 +1065,7 @@ export class hfmath{
   }
 
   box(opt:ExportOpt):Bbox{
+    if (!opt) opt = {};
     let [px,py,sclx,scly] = this.resolveScale(opt);
     return {
       x:px+this._tree.bbox.x*sclx,
