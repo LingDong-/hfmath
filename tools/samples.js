@@ -19,7 +19,6 @@ for (let i = 0; i < tests.length; i++){
   let f = `${(i).toString().padStart(3,0)}.svg`;
 
   listing += '```\n'+latex+'\n```\n';
-  listing += '$$\n'+latex+'\n$$\n';
   listing += `![](${f})\n`;
 
   fs.writeFileSync(__dirname+`/../samples/${f}`,svg);

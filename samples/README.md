@@ -8,7 +8,7 @@ $$
 y=x^2+2x+1
 
 $$
-![](000.svg)
+ <br>![](000.svg)
 ```
 
 \int_0^\infty e^{-x}\,\mathrm{d}x
@@ -19,7 +19,7 @@ $$
 \int_0^\infty e^{-x}\,\mathrm{d}x
 
 $$
-![](001.svg)
+ <br>![](001.svg)
 ```
 
 x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}
@@ -30,7 +30,7 @@ $$
 x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}
 
 $$
-![](002.svg)
+ <br>![](002.svg)
 ```
 
 \vec{x}=\vec{AB}+\vec{BC}=\vec{AC}
@@ -41,7 +41,7 @@ $$
 \vec{x}=\vec{AB}+\vec{BC}=\vec{AC}
 
 $$
-![](003.svg)
+ <br>![](003.svg)
 ```
 
 \hat{a}+\acute{b}+\grave{c}+\bar{d}+\tilde{e}+\underline{f}
@@ -52,7 +52,7 @@ $$
 \hat{a}+\acute{b}+\grave{c}+\bar{d}+\tilde{e}+\underline{f}
 
 $$
-![](004.svg)
+ <br>![](004.svg)
 ```
 
 \frac{\sin(\angle BAC)}{BC}=\frac{\sin(\angle ABC)}{AC}=\frac{\sin(\angle ACB)}{AB}
@@ -63,7 +63,7 @@ $$
 \frac{\sin(\angle BAC)}{BC}=\frac{\sin(\angle ABC)}{AC}=\frac{\sin(\angle ACB)}{AB}
 
 $$
-![](005.svg)
+ <br>![](005.svg)
 ```
 
 ^3/_7+\frac{k(k+1)}{2}+k+1+\frac{\frac{1}{x}+\frac{1}{y}}{y-z}
@@ -74,7 +74,7 @@ $$
 ^3/_7+\frac{k(k+1)}{2}+k+1+\frac{\frac{1}{x}+\frac{1}{y}}{y-z}
 
 $$
-![](006.svg)
+ <br>![](006.svg)
 ```
 
 \lim_{x \to \infty} \,\exp(-x) = 0, \quad \lim_{h \to 0} \,\frac{\sin(h)}{h} = 1
@@ -85,7 +85,7 @@ $$
 \lim_{x \to \infty} \,\exp(-x) = 0, \quad \lim_{h \to 0} \,\frac{\sin(h)}{h} = 1
 
 $$
-![](007.svg)
+ <br>![](007.svg)
 ```
 
 \cos (2\theta) = \cos^2 \theta - \sin^2 \theta
@@ -96,7 +96,7 @@ $$
 \cos (2\theta) = \cos^2 \theta - \sin^2 \theta
 
 $$
-![](008.svg)
+ <br>![](008.svg)
 ```
 
 P\left(A=2\middle|\frac{A^2}{B}>4\right)
@@ -107,7 +107,7 @@ $$
 P\left(A=2\middle|\frac{A^2}{B}>4\right)
 
 $$
-![](009.svg)
+ <br>![](009.svg)
 ```
 
 f(n) = \begin{cases}n/2&\text{if }n\text{ is even} \\ -(n+1)/2 & \text{if }n\text{ is odd}\end{cases}
@@ -118,7 +118,7 @@ $$
 f(n) = \begin{cases}n/2&\text{if }n\text{ is even} \\ -(n+1)/2 & \text{if }n\text{ is odd}\end{cases}
 
 $$
-![](010.svg)
+ <br>![](010.svg)
 ```
 
 f(x)=\frac{1}{2\sqrt{2\pi} }e^{-\frac{1}{2}(\frac{x-\mu}{\sigma})^2}
@@ -129,7 +129,7 @@ $$
 f(x)=\frac{1}{2\sqrt{2\pi} }e^{-\frac{1}{2}(\frac{x-\mu}{\sigma})^2}
 
 $$
-![](011.svg)
+ <br>![](011.svg)
 ```
 
 \frac{1}{\left(\sqrt{\phi \sqrt{5}}-\phi\right) e^{\frac 2 5 \pi}} \equiv 1+\frac{e^{-2\pi}} {1+\frac{e^{-4\pi}} {1+\frac{e^{-6\pi}} {1+\frac{e^{-8\pi}} {1+\cdot\cdot\cdot} } } }
@@ -140,7 +140,7 @@ $$
 \frac{1}{\left(\sqrt{\phi \sqrt{5}}-\phi\right) e^{\frac 2 5 \pi}} \equiv 1+\frac{e^{-2\pi}} {1+\frac{e^{-4\pi}} {1+\frac{e^{-6\pi}} {1+\frac{e^{-8\pi}} {1+\cdot\cdot\cdot} } } }
 
 $$
-![](012.svg)
+ <br>![](012.svg)
 ```
 
 \left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
@@ -151,7 +151,7 @@ $$
 \left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)
 
 $$
-![](013.svg)
+ <br>![](013.svg)
 ```
 
 \int u \frac{\rm{d}v}{\rm{d}x}\,\rm{d}x=uv-\int \frac{\rm{d}u}{\rm{d}x}v\,\rm{d}x
@@ -162,7 +162,7 @@ $$
 \int u \frac{\rm{d}v}{\rm{d}x}\,\rm{d}x=uv-\int \frac{\rm{d}u}{\rm{d}x}v\,\rm{d}x
 
 $$
-![](014.svg)
+ <br>![](014.svg)
 ```
 
 f(x) = \int_{-\infty}^\infty \hat f(\xi)e^{2 \pi i \xi x} 
@@ -173,7 +173,7 @@ $$
 f(x) = \int_{-\infty}^\infty \hat f(\xi)e^{2 \pi i \xi x} 
 
 $$
-![](015.svg)
+ <br>![](015.svg)
 ```
 
 \begin{aligned}
@@ -194,7 +194,7 @@ $$
 \end{aligned}
 
 $$
-![](016.svg)
+ <br>![](016.svg)
 ```
 
 \frac{n!}{k!(n-k)!} = ^n C_k = \binom{n}{k}
@@ -205,7 +205,7 @@ $$
 \frac{n!}{k!(n-k)!} = ^n C_k = \binom{n}{k}
 
 $$
-![](017.svg)
+ <br>![](017.svg)
 ```
 
 \begin{pmatrix}
@@ -248,7 +248,7 @@ a_{31} & a_{32} & a_{33}
      \end{bmatrix}
 
 $$
-![](018.svg)
+ <br>![](018.svg)
 ```
 
 \mathcal L_{\mathcal T}(\vec{\lambda})
@@ -265,7 +265,7 @@ $$
        \frac{\lambda_i^2}{2\sigma^2}
 
 $$
-![](019.svg)
+ <br>![](019.svg)
 ```
 
 \sqrt[a]{b\sqrt[c]{d\sqrt[e]{f\sqrt[g]{h\sqrt[i]{j\sqrt[k]{l\sqrt[m]{n\sqrt[o]{p\sqrt[q]{r}}}}}}}}}
@@ -276,7 +276,7 @@ $$
 \sqrt[a]{b\sqrt[c]{d\sqrt[e]{f\sqrt[g]{h\sqrt[i]{j\sqrt[k]{l\sqrt[m]{n\sqrt[o]{p\sqrt[q]{r}}}}}}}}}
 
 $$
-![](020.svg)
+ <br>![](020.svg)
 ```
 
 \ell_{arc}=2\pi r(\theta/360^\circ)
@@ -287,7 +287,7 @@ $$
 \ell_{arc}=2\pi r(\theta/360^\circ)
 
 $$
-![](021.svg)
+ <br>![](021.svg)
 ```
 
 \begin{aligned}
@@ -310,7 +310,7 @@ a_{n} &=a_{n-1}+a_{n-2} \\
 \end{aligned}
 
 $$
-![](022.svg)
+ <br>![](022.svg)
 ```
 
 \frak{Sphinx}\;of\;\bf{Black}\;\mathcal{Quartz},\;\mathsf{Judge}\;\it{my}\;\rm{Vow}!
@@ -321,7 +321,7 @@ $$
 \frak{Sphinx}\;of\;\bf{Black}\;\mathcal{Quartz},\;\mathsf{Judge}\;\it{my}\;\rm{Vow}!
 
 $$
-![](023.svg)
+ <br>![](023.svg)
 ```
 
 \Xi\varepsilon\sigma\kappa\varepsilon\pi\acute{\alpha}\zeta\omega\;\tau\eta\nu\;\psi\upsilon\chi\omicron\varphi\theta\acute{\omicron}\rho\alpha\;\beta\delta\varepsilon\lambda\upsilon\gamma\mu\acute{\iota}\alpha .
@@ -332,4 +332,4 @@ $$
 \Xi\varepsilon\sigma\kappa\varepsilon\pi\acute{\alpha}\zeta\omega\;\tau\eta\nu\;\psi\upsilon\chi\omicron\varphi\theta\acute{\omicron}\rho\alpha\;\beta\delta\varepsilon\lambda\upsilon\gamma\mu\acute{\iota}\alpha .
 
 $$
-![](024.svg)
+ <br>![](024.svg)
