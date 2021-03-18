@@ -24,6 +24,8 @@ function tokenize(str:string):string[]{
     }else if (str[i] == '\\'){
       if (curr.length == 1 && curr[0] == '\\'){
         curr += str[i]
+        tokens.push(curr);
+        curr = "";
       }else{
         if (curr.length){
           tokens.push(curr);
@@ -558,8 +560,10 @@ function plan(expr:Expr,mode:string='math'):void{
   }else if (SYMB[expr.text] && SYMB[expr.text].flags.hat){
     let e :Expr = expr.chld[0];
     plan(e);
-    transform(e,1,null,0,0.5);
-    expr.bbox = {x:0,y:-0.5,w:e.bbox.w,h:e.bbox.h+0.5};
+    let y0 = e.bbox.y - 0.5;
+    e.bbox.y = 0.5;
+    expr.bbox = {x:0,y:y0,w:e.bbox.w,h:e.bbox.h+0.5};
+    
   }else if (SYMB[expr.text] && SYMB[expr.text].flags.mat){
     let e :Expr = expr.chld[0];
     plan(e);

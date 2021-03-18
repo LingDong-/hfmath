@@ -104,3 +104,6 @@ $$
 $$
 \Xi\varepsilon\sigma\kappa\varepsilon\pi\acute{\alpha}\zeta\omega\;\tau\eta\nu\;\psi\upsilon\chi\omicron\varphi\theta\acute{\omicron}\rho\alpha\;\beta\delta\varepsilon\lambda\upsilon\gamma\mu\acute{\iota}\alpha .
 $$
+$$
+\frac{\hat{\vec{\mathbf{p}}}^2}{2m} \left|\Psi(t)\right\rangle+V(\hat{\vec{\mathbf{r}}},t)\left| \Psi (t)\right\rangle=i h\frac{d}{dt} \left| \Psi (t) \right\rangle
+$$

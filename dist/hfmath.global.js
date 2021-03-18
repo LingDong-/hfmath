@@ -1920,6 +1920,8 @@ var HFMATH = (() => {
       } else if (str[i] == "\\") {
         if (curr.length == 1 && curr[0] == "\\") {
           curr += str[i];
+          tokens.push(curr);
+          curr = "";
         } else {
           if (curr.length) {
             tokens.push(curr);

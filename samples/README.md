@@ -178,3 +178,9 @@ a_{n} &=a_{n-1}+a_{n-2} \\
 
 ```
 ![](024.svg)
+```
+
+\frac{\hat{\vec{\mathbf{p}}}^2}{2m} \left|\Psi(t)\right\rangle+V(\hat{\vec{\mathbf{r}}},t)\left| \Psi (t)\right\rangle=i h\frac{d}{dt} \left| \Psi (t) \right\rangle
+
+```
+![](025.svg)

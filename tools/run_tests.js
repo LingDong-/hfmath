@@ -63,8 +63,8 @@ let t0  = performance.now();
 
 // for (let k = 0; k < 1000; k++){
 
-let i = 19;
-for (i = 0; i < teststrs.length; i++)
+let i = 25;
+// for (i = 0; i < teststrs.length; i++)
 
 {
 console.log(i);
@@ -122,4 +122,4 @@ fs.writeFileSync(__dirname+`/test_results/test_${i}_svg.svg`,svg);
 }
 
 textSteps();
-testWrapper();
+// testWrapper();
